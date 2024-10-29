@@ -1,0 +1,11 @@
+name = "yield-tokens"
+main = "src/index.ts"
+account_id = "b77650815043dd01929d4e5b6824854d"
+compatibility_date = "2023-03-17"
+
+kv_namespaces = [
+  { binding = "YIELD_TOKENS", id = "d5bb31b6c08a4ad69c01dbf03c7b60ab", preview_id = "01f1f6efcf02494e971b3406419824cb" }
+]
+
+[triggers]
+crons = ["*/10 * * * *"]
